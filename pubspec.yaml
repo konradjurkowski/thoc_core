@@ -15,6 +15,9 @@ dependencies:
   flutter_riverpod: 2.6.1
   riverpod_annotation: 2.6.1
 
+  # Utils
+  email_validator: 3.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
