@@ -9,6 +9,8 @@ class ApiException implements Exception {
   final Error? error;
   final ApiExceptionType type;
 
+  bool isCanceled() => type == ApiExceptionType.cancel;
+
   @override
   String toString() {
     return 'ApiException{message: $message, result: $error, type: $type}';
